@@ -1,0 +1,28 @@
+.user-form {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.user-form .field {
+    flex: 1 1 200px;
+    margin: 5px 10px;
+    padding: 5px 10px;
+    text-align: left;
+}
+
+.user-form .field label {
+    display: block;
+    margin: 0 0 4px;
+}
+
+.user-form .buttons {
+    flex: 1 1 100%;
+}
+
+.user-form .buttons button {
+    margin: 0 0 0 10px;
+}
+
+.user-form .buttons button:first-child {
+    margin-left: 0;
+}

@@ -1,25 +1,17 @@
-import logo from './logo.svg';
+import UserForm from './components/UserForm';
+import UsersOverview from './components/UsersOverview.container';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+export default function App(props) {
+    function formCompleted(e) {
+        props.onNewUser(e.user);
+        e.clear();
+    }
 
-export default App;
+    return (
+        <>
+            <UserForm onDone={(e) => formCompleted(e)} />
+            <UsersOverview className="app__users-overview" />
+        </>
+    );
+}
