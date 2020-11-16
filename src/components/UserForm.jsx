@@ -2,6 +2,7 @@ import { useState } from 'react';
 
 import DatePicker from './DatePicker';
 import EmailInput from './EmailInput';
+import PhoneInput from './PhoneInput';
 
 import './UserForm.css';
 
@@ -64,10 +65,9 @@ export default function UserForm(props) {
             </div>
             <div className="field">
                 <label>Телефон</label>
-                <input
-                    type="text"
+                <PhoneInput
                     value={phone}
-                    onInput={(e) => setPhone(e.target.value)}
+                    onInput={(value) => setPhone(value)}
                 />
             </div>
             <div className="field">
