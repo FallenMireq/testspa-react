@@ -15,6 +15,16 @@
     margin: 0 0 4px;
 }
 
+.user-form .field label::after {
+    content: ' \1f5f8';
+    color: #0a0;
+}
+
+.user-form .field_invalid label::after {
+    content: ' \2717';
+    color: #a00;
+}
+
 .user-form .buttons {
     flex: 1 1 100%;
 }
