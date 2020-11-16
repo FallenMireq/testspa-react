@@ -52,14 +52,14 @@ export default function UserForm(props) {
                 <label>Дата рождения</label>
                 <DatePicker
                     value={date}
-                    onInput={(e) => setDate(e.target.value)}
+                    onInput={(value) => setDate(value)}
                 />
             </div>
             <div className="field">
                 <label>Email</label>
                 <EmailInput
                     value={email}
-                    onInput={(e) => setEmail(e.target.value)}
+                    onInput={(value) => setEmail(value)}
                 />
             </div>
             <div className="field">
