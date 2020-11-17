@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/testspa-react/static/css/main.a87295a7.chunk.css",
+    "main.js": "/testspa-react/static/js/main.9e949f49.chunk.js",
+    "main.js.map": "/testspa-react/static/js/main.9e949f49.chunk.js.map",
+    "runtime-main.js": "/testspa-react/static/js/runtime-main.f2ce3e2d.js",
+    "runtime-main.js.map": "/testspa-react/static/js/runtime-main.f2ce3e2d.js.map",
+    "static/css/2.95456d05.chunk.css": "/testspa-react/static/css/2.95456d05.chunk.css",
+    "static/js/2.c900b397.chunk.js": "/testspa-react/static/js/2.c900b397.chunk.js",
+    "static/js/2.c900b397.chunk.js.map": "/testspa-react/static/js/2.c900b397.chunk.js.map",
+    "static/js/3.979dd105.chunk.js": "/testspa-react/static/js/3.979dd105.chunk.js",
+    "static/js/3.979dd105.chunk.js.map": "/testspa-react/static/js/3.979dd105.chunk.js.map",
+    "index.html": "/testspa-react/index.html",
+    "static/css/2.95456d05.chunk.css.map": "/testspa-react/static/css/2.95456d05.chunk.css.map",
+    "static/css/main.a87295a7.chunk.css.map": "/testspa-react/static/css/main.a87295a7.chunk.css.map",
+    "static/js/2.c900b397.chunk.js.LICENSE.txt": "/testspa-react/static/js/2.c900b397.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f2ce3e2d.js",
+    "static/css/2.95456d05.chunk.css",
+    "static/js/2.c900b397.chunk.js",
+    "static/css/main.a87295a7.chunk.css",
+    "static/js/main.9e949f49.chunk.js"
+  ]
+}
